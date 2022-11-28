@@ -1,0 +1,21 @@
+.user-form{
+    margin: auto;
+    width: fit-content;
+}
+.input-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.result{
+    display:none;
+}
+.result.error, .result{
+    display:block;
+}
+.result.error{
+    color:red
+}
+.result.success{
+    color:green;
+}
