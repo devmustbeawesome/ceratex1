@@ -1,5 +1,5 @@
 <?
-require($_SERVER['DOCUMENT_ROOT'] . '\.dbconfig.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/.dbconfig.php');
 class Person
 {
     public $name, $surname, $age;
